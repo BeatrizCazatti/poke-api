@@ -11,7 +11,7 @@ Aplicação que utiliza uma API para retornar dados dos pokemons selecionados. O
     <img width="800px"src="https://github.com/BeatrizCazatti/poke-api/blob/main/screen-capture.png" alt="Prewie da página">    
 </div>
 <div align="center">
-    Link da página: https://sign-up-robot-bcf.netlify.app/
+  Link da página: <a href='https://poke-api-ckuq854sx-beatrizcazatti.vercel.app' target="blank">https://poke-api-ckuq854sx-beatrizcazatti.vercel.app</a>
 </div>
 
 
