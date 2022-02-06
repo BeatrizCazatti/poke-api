@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inder', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    list-style: none;
+}
+
+:root {
+    --color-1: #F2F2F2;
+    --color-2: #BBBBBB;
+    --color-3: #444444;
+    --color-4: #333333;
+    --color-5: #CEBF7B;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-4);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    width: 100%;
+    height: 50px;
+    background: var(--color-3);
+    color: var(--color-5);
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-2);
+}
+
+.get-pokemon {
+    width: 35%;
+    height: 100%;
+    position: relative;
+}
+
+.pokemon-filter {
+    height: 100%;
+    width: 100%;
+    border: 10px solid var(--color-3);
+    border-style: none solid none none;
+}
+
+.list-title {
+    display: flex;
+}
+
+.list-title h3 {
+    width: 50%;
+}
+
+.list-types {
+    list-style: none;
+    height: 100%;
+    width: 50%;
+    background-color: var(--color-2);
+    display: flex;
+    flex-direction: column;
+}
+
+.list h3 {
+    font-size: 15px;
+}
+
+.list-types li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: var(--color-4);
+    color: var(--color-2);
+    transition: background .1s;
+}
+
+.list-types li:hover {
+    background: #3b3b3bbb !important;
+    outline: 2px solid var(--color-4);
+    outline-offset: -2px;
+}
+
+.pokemon-select {
+    background-color: var(--color-2);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#select-options {
+    width: 50%;
+    height: 50px;
+    background: var(--color-3);
+    color: var(--color-5);
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+main {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.properies {
+    align-items: center;
+    background-color: var(--color-3);
+    border-radius: 20px;
+    border-style: solid none;
+    border: 8px solid var(--color-6);
+    box-shadow: 0 10px 22px rgb(0, 0, 0, 0.5), inset 2px 2px 8px #cebf7b60;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-between;
+    padding: 25px;
+    width: 350px;
+}
+
+.pokemon-image {
+    background-image: url("https://via.placeholder.com/150x150");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.pokemon-name {
+    color: var(--color-5);
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.pokemon-experience {
+    color: var(--color-5);
+}
+
+.pokemon-abilities {
+    background-color: var(--color-2);
+    border-radius: 15px;
+    color: var(--color-3);
+    font-size: 13px;
+    margin: 22px 8px;
+    padding: 4px 22px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.pokemon-dimensions {
+    border: 2px solid #bbbbbb88;
+    border-style: none none solid none;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    width: 85%;
+}
+
+.pokemon-dimensions span {
+    font-size: 22px;
+    color: var(--color-5);
+}
+
+.pokemon-dimensions p {
+    color: var(--color-2);
+    font-size: 15px;
+}
+
+.pokemon-stats {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.pokemon-stats h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: var(--color-5);
+}
+
+.pokemon-stats div {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+}
+
+.pokemon-stats div p {
+    margin-right: 20px;
+    color: var(--color-2);
+}
+
+.pokemon-stats .number {
+    color: var(--color-5);
+    width: 20px;
+}
+
+.bar-back {
+    width: 60%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--color-4);
+    position: relative;
+}
+
+.bar-color {
+    position: absolute;
+    left: 0;
+    background-color: var(--color-5);
+    height: 4px;
+    border-radius: 2px;
+    transition: width .5s;
+}
+
+footer {
+    color: var(--color-2);
+}
+
+footer a {
+    color: var(--color-1);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="images/pokeball.ico" type="image/x-icon">
+    <title>GetPokemon</title>
+</head>
+
+<body>
+
+    <div class="get-pokemon">
+        <div class="pokemon-filter">
+            <h3 class="pokemon-title">GetPokemon</h3>
+            <div class="list">
+                <div class="list-title">
+                    <h3>Types</h3>
+                    <select id="select-options">
+                        <option value="">Selecione</option>
+                    </select>
+                </div>
+                <div class="list-types"></div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="properies">
+            <div class="pokemon-image"></div>
+            <div class="pokemon-name"> --- </div>
+            <div class="pokemon-experience">
+                <span class="number"> - </span>
+            </div>
+            <div class="pokemon-abilities"></div>
+            <div class="pokemon-dimensions">
+                <div class="pokemon-height">
+                    <span> - </span>
+                    <p>height</p>
+                </div>
+                <div class="pokemon-weight">
+                    <span> - </span>
+                    <p>weight</p>
+                </div>
+            </div>
+            <div class="pokemon-stats">
+                <h2>Base Stats</h2>
+                <div class="pokemon-attack">
+                    <p>ATK</p>
+                    <span class="number"> - </span>
+                    <span class="bar-back">
+                        <span class="bar-color"></span>
+                    </span>
+                </div>
+                <div class="pokemon-defense">
+                    <p>DEF</p>
+                    <span class="number"> - </span>
+                    <span class="bar-back">
+                        <span class="bar-color"></span>
+                    </span>
+                </div>
+                <div class="pokemon-speed">
+                    <p>SPD</p>
+                    <span class="number"> - </span>
+                    <span class="bar-back">
+                        <span class="bar-color"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <footer>Esta aplicação utiza a <a href="https://pokeapi.co/" target="blank">PokéApi</a></footer>
+    </main>
+
+    <script src="assets/js/pokemonService.js"></script>
+    <script src="assets/js/pokemon.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
